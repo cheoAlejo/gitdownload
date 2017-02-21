@@ -5,6 +5,10 @@
 * Linux/Unix based OS
 * GIT installed
 
+## Should work with ...
+ * Redmine >= 2.6
+ * Git >= 1.9
+
 ## Installation
 
 _Clone repository:_
@@ -23,7 +27,7 @@ touch tmp/restart.txt
 ** IMPORTANT: **
 
 * Permissions are tied to "commit_access"
-* Make sure "Hostname" and "Protocol" is set correctly!
+* Make sure "Hostname" and "Protocol" is set correctly under Administration -> Plugins -> Gitdownload -> Configure!
 * On the plugins configuration site set the GIT Url
 
 ## Features
